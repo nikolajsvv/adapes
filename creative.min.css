@@ -346,22 +346,39 @@ img::-moz-selection {
 }
 
 .package-container-left {
-    margin-left: 30px;
+    margin-left: 40px;
     float: left;
     background-color: #c6db0d;
 }
 
 .package-container-middle {
-    margin-left: 30px;
+    margin-left: 40px;
     float: left;
     background-color: #53cff4;
 }
 
 .package-container-right {
-    margin-left: 30px;
+    margin-left: 40px;
     float: left;
-    background-color: #ef1360;
+    background-color: #d175b0;
 }
 .package-head {
     text-align: center;
+}
+
+#package-btn {
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.hr, #hr-packages {
+    border-color:gainsboro;
+    border-width: 1px;
+    max-width: 200px;
+}
+
+.btn, #btn-about {
+    margin-top: 30px;
 }
