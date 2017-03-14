@@ -360,8 +360,20 @@ img::-moz-selection {
 .package-container-right {
     margin-left: 30px;
     float: left;
-    background-color: #ef1360;
+    background-color: #d175b0;
 }
 .package-head {
     text-align: center;
+}
+
+.btn, #package-btn {
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.hr, #hr-packages {
+    border-color:gainsboro;
+    border-width: 1px;
+    max-width: 200px;
 }
