@@ -366,14 +366,19 @@ img::-moz-selection {
     text-align: center;
 }
 
-.btn, #package-btn {
+#package-btn {
     width: 200px;
     margin-left: 50px;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .hr, #hr-packages {
     border-color:gainsboro;
     border-width: 1px;
     max-width: 200px;
+}
+
+.btn, #btn-about {
+    margin-top: 30px;
 }
