@@ -65,7 +65,8 @@ aside {
 .navbar-default {
     background-color:#fff;
     border-color:rgba(34,34,34,.05);
-    transition:all .35s
+    transition:all .35s;
+    height: 90px
 }
 .btn-default,.portfolio-box .portfolio-box-caption {
     -webkit-transition:all .35s;
@@ -89,7 +90,8 @@ aside {
     text-transform:uppercase;
     font-weight:700;
     font-size:13px;
-    color:#222
+    color:#222;
+    margin-top: 20px;
 }
 .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover {
     color:#dfed1e
