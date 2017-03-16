@@ -24,7 +24,7 @@ body {
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
 }
 hr {
-    border-color:#dfed1e;
+    border-color:#FDF200;
     border-width:3px;
     max-width:75px
 }
@@ -33,10 +33,10 @@ hr.light {
 }
 a {
     transition:all .35s;
-    color:#dfed1e
+    color:#FDF200
 }
 a:focus,a:hover {
-    color:#eb3812
+    color:#FDF200
 }
 p {
     font-size:16px;
@@ -44,7 +44,8 @@ p {
     margin-bottom:20px
 }
 .bg-primary {
-    background-color:#d2e00d
+    color: #343811;
+    background-color:#FDF200
 }
 .bg-dark {
     background-color:#222;
@@ -73,12 +74,12 @@ aside {
     -moz-transition:all .35s
 }
 .navbar-default .navbar-header .navbar-brand {
-    color:#dfed1e;
+    color:#FDF200;
     font-weight:700;
     text-transform:uppercase
 }
 .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover {
-    color:#dfed1e
+    color:#FDF200
 }
 .navbar-default .navbar-header .navbar-toggle {
     font-weight:700;
@@ -94,10 +95,10 @@ aside {
     margin-top: 13px;
 }
 .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover {
-    color:#dfed1e
+    color:#FDF200
 }
 .navbar-default .nav>li.active>a,.navbar-default .nav>li.active>a:focus {
-    color:#dfed1e!important;
+    color:#FDF200!important;
     background-color:transparent
 }
 .navbar-default .nav>li.active>a:focus:hover,.navbar-default .nav>li.active>a:hover {
@@ -125,17 +126,17 @@ aside {
         border-color:rgba(34,34,34,.05)
     }
     .navbar-default.affix .navbar-header .navbar-brand {
-        color:#dfed1e;
+        color:#FDF200;
         font-size:14px
     }
     .navbar-default.affix .navbar-header .navbar-brand:focus,.navbar-default.affix .navbar-header .navbar-brand:hover {
-        color:#dfed1e
+        color:#FDF200
     }
     .navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus {
         color:#222
     }
     .navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover {
-        color:#dfed1e
+        color:#FDF200
     }
 }
 header {
@@ -192,7 +193,8 @@ header .header-content .header-content-inner p {
     }
 }
 .section-heading {
-    margin-top:0
+    margin-top:0;
+    color: #343811
 }
 .service-box {
     max-width:400px;
@@ -264,7 +266,7 @@ header .header-content .header-content-inner p {
     margin:0 auto 20px
 }
 .text-primary {
-    color:#dfed1e
+    color:#FDF200
 }
 .no-gutter>[class*=col-] {
     padding-right:0;
@@ -303,11 +305,11 @@ header .header-content .header-content-inner p {
     border-color:#222
 }
 .btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled.focus,.btn-primary.disabled:active,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],.btn-primary[disabled].active,.btn-primary[disabled].focus,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover {
-    background-color:#F05F40;
-    border-color:#F05F40
+    background-color:#FDF200;
+    border-color:#FDF200
 }
 .btn-primary .badge {
-    color:#F05F40;
+    color:#FDF200;
     background-color:#fff
 }
 .btn {
@@ -424,12 +426,16 @@ img::-moz-selection {
     margin-bottom: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #dfed1e;
-    border: 1px solid #c6db0d;
+    background-color: #FDF200;
+    border: 1px solid #FDF200;
 }
 
 #contact-hr {
     border-width: 1px;
     max-width: 300px;
     border-color: lightgray
+}
+
+.primary, #hr-heading {
+    border-color: #343811;
 }
